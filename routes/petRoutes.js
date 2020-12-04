@@ -8,7 +8,7 @@ router.get('/pets', (req, res) => {
 })
 
 router.post('/pets', (req, res) => {
-  Pet.create(req.body)
+  Pet.create(req.body, { include: [Owner]})
     .then(pet => res.json(pet))
     .catch(err => console.log(err))
 })
