@@ -3,5 +3,5 @@
 ## Today's Agenda
 
 - More on Sequelize
-- Date Relations
+- Data Relations
 - Big Activity
